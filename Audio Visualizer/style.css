@@ -177,4 +177,7 @@ p {
     border: 1px solid var(--border-color);
     cursor: pointer;
     transition: background-color 0.2s ease;
-}
+}
+
+#audio-upload::-webkit-file-upload-button {
+    background-color: var(--primary-color);
