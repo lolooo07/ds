@@ -101,4 +101,6 @@ const checkWin = ()=>{
         }
     })
 }
-
+
+// Game Logic
+// music.play()
