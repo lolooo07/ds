@@ -111,4 +111,6 @@ Array.from(boxes).forEach(element =>{
         if(boxtext.innerText === ''){
             boxtext.innerText = turn;
             turn = changeTurn();
-            audioTurn.play();
+            audioTurn.play();
+            checkWin();
+            if (!isgameover){
